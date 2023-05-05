@@ -10,7 +10,7 @@ redirect_from:
 
 I am a mathematician by training, pursuing research in mechanistic interpretability. I believe AGI research has the potential to be dangerous, and the most effective preventative measure is a clear mathematical framework for understanding the internal workings of the underlying machinery.
 
-Currently, I am an AI and topology consultant for FILLBYNATHANIEL, and I am also working with (Prof. Tom Goldstein)[http://www.cs.umd.edu/~tomg/] on FILLBYN.
+Currently, I am an AI and topology consultant for FILLBYNATHANIEL, and I am also working with [Prof. Tom Goldstein](http://www.cs.umd.edu/~tomg/) on FILLBYN.
 
 Background
 ======
