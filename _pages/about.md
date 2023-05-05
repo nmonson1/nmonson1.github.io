@@ -21,3 +21,7 @@ Before graduate school, I worked at FILLBYNATHANIEL, and before that I was a mat
 Site guide
 ------
 On this site, you can also find [my CV](link), some [writing](link) on AGI and interpretability.
+
+Other Stuff
+------
+I also enjoy boardgames, reading, classical music, good food, long walks, and dogs. Especially dogs.
