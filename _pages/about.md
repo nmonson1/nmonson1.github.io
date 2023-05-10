@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a mathematician by training, pursuing research in mechanistic interpretability. I believe AGI research has the potential to be dangerous, and the most effective preventative measure is a clear mathematical framework for understanding the internal workings of the underlying machinery.
+I am a mathematician by training, pursuing research in mechanistic interpretability. I believe AGI research has the potential to be dangerous, and the most effective preventative measure is a clear framework for understanding the internal workings of the underlying machinery.
 
-Currently, I am an AI and topology consultant for STILLFILLBYNATHANIEL, and I am also working with [Prof. Tom Goldstein](http://www.cs.umd.edu/~tomg/) on FILLBYN.
+Currently, I am an AI and topology consultant for Garoux LLC, and I am also working with [Prof. Tom Goldstein](http://www.cs.umd.edu/~tomg/) at University of Maryland.
 
 Background
 ======
-I have a Ph.D. in mathematics from the University of Maryland, College Park. While originally trained in theoretical topology, my eventual thesis was on computational topology, where I proved a convergence law for errors accumulated through dimensional reduction. [This](internallinktoapageonthiswebsite.com) is a brief summary, and the full length thesis can be found [here](linktothesis.com).
+I have a Ph.D. in mathematics from the University of Maryland, College Park. While I originally worked on algebraic geometry and topology, my [thesis](https://drum.lib.umd.edu/handle/1903/29249) was on computational topology, where I proved an approximation theorem on persistent homology with relevance to dimension reduction.
 
-Before graduate school, I worked at FILLBYNATHANIEL, and before that I was a math and econ major at Swarthmore College. I grew up in New York and Salt Lake City, Utah.
+Before graduate school, I did economic consulting at LECG, and before that I was a math and econ major at Swarthmore College. I grew up in New York and Salt Lake City, Utah.
 
 Site guide
 ------
