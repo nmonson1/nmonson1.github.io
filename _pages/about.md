@@ -7,21 +7,20 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Welcome! My name is Nathaniel and I am an AI alignment researcher. I am intensely focused on exploring the mechanisms behind the efficacy of modern ML techniques. In addition to being theoretically fascinating, I think gaining a greater understanding of these issues is potentially existentially critical. Currently, my ambition is to use interpretability tools to extract objective functions from complex models. While my background is primarily in computational topology and secondarily in algebraic geometry, I have been dedicated to AI and alignment work since spring of 2022.
 
-I am a mathematician by training, pursuing research in mechanistic interpretability. I believe AGI research has the potential to be dangerous, and the most effective preventative measure is a clear framework for understanding the internal workings of the underlying machinery.
-
-Currently, I am an AI and topology consultant for Garoux LLC, and I am also working with [Prof. Tom Goldstein](http://www.cs.umd.edu/~tomg/) at University of Maryland.
+Currently, I am supported by a Long Term Future Fund grant to pivot from mathematics into ML/AI. I've been working with [Prof. Tom Goldstein](http://www.cs.umd.edu/~tomg/)'s group at University of Maryland, and also have the good fortune to be mentored by Dr. Shibani Santurkar, at OpenAI. 
 
 Background
 ======
 I have a Ph.D. in mathematics from the University of Maryland, College Park. While I originally worked on algebraic geometry and topology, my [thesis](https://drum.lib.umd.edu/handle/1903/29249) was on computational topology, where I proved an approximation theorem on persistent homology with relevance to dimension reduction.
 
-Before graduate school, I did economic consulting at LECG, and before that I was a math and econ major at Swarthmore College. I grew up in New York and Salt Lake City, Utah.
+Before graduate school, I did economic consulting at LECG, LLC. Before that I graduated with High Honors from Swarthmore College, majoring in mathematics and minoring in economics. I grew up in New York and Salt Lake City, Utah.
 
 Site guide
 ------
-On this site, you can also find [my CV](link), some [writing](link) on AGI and interpretability.
+On this site, you can also find [my CV](/files/NathanielMonson_CV.pdf), some [writing](link) on AGI and interpretability.
 
 Other Stuff
 ------
-I also enjoy boardgames, reading, classical music, good food, long walks, and dogs. Especially dogs.
+I also enjoy chocolate, boardgames, reading, classical music, sushi, long walks, and dogs. Especially dogs.
