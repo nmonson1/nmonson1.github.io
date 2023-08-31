@@ -66,3 +66,7 @@ I've been reading some people recently who seem very skeptical of the usefulness
 Why alignment is hard in five words
 ------
 We have no training data. We have literally no examples of the form "given these inputs, the correct action for a smarter-than-human AI to take is x". We have sentences describing the correct action, but that isn't the same. If we ask chat-GPT for what a batter should do when a pitcher throws a ball, it doesn't matter how good the resulting description of the home run is--if we actually take chat-GPT, it can't hit a baseball.
+
+"Alignment is pre-paradigmatic"
+------
+One piece of advice I hear often directed to new researchers is the idea that it is important to form your own models of AI risk, or that people should try to come up with solutions to the problems before reading much from the alignment forum. I don't know how true I think this is, but if it is true, it seems like obviously very bad news. In a field where people know roughly what they are doing (eg, almost any academic field more than 50 years old) one of the most important things to do is come to appreciate the common views and assumptions shared by the field. I would argue this is true even if (and perhaps especially if) the ultimate goal is productive criticism of a field. If it is important to "form your own models," that suggests alignment thinkers have made no consensus progress in the field thus far.
