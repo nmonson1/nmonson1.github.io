@@ -21,6 +21,6 @@ Site guide
 ------
 On this site, you can also find [my CV](/files/NathanielMonson_CV.pdf), some [writing](link) on AGI and interpretability.
 
-Other Stuff
+Other stuff
 ------
 I also enjoy chocolate, boardgames, reading, classical music, sushi, long walks, and dogs. Especially dogs.
