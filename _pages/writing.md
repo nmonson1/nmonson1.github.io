@@ -62,3 +62,7 @@ I don't know a general way to set up hypotheticals for gpt-4/arbitrary AI that s
 In defense of interpretability
 ------
 I've been reading some people recently who seem very skeptical of the usefulness of mechanistic interpretability for alignment. While I certainly don't think it is a complete solution, or even anything close to a majority, I do think it seems like a very good thing. In particular, it seems like the only way for us to "check our work" with whatever alignment solution we end up using. I don't expect it to be perfect, but to me it seems like the only candidate for this, and my estimation of our survival chances go monotonically up with our mechinterp knowledge.
+
+Why alignment is hard in five words
+------
+We have no training data. We have literally no examples of the form "given these inputs, the correct action for a smarter-than-human AI to take is x". We have sentences describing the correct action, but that isn't the same. If we ask chat-GPT for what a batter should do when a pitcher throws a ball, it doesn't matter how good the resulting description of the home run is--if we actually take chat-GPT, it can't hit a baseball.
