@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /writing/
 title: "Short Form and Ideas"
 excerpt: "Nathaniel's short form writing"
