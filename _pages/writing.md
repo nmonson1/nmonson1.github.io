@@ -37,22 +37,16 @@ While Feit-Thompson have a real paper from that year, by that name, the result I
 [^3]: Even just the human case is not always uncomplicated. I think there's a really interesting discussion to be had on blindsight and implicit learning and similar phenomena, but I'll save that for another time.
 
 **LLMs: visible behaviors and invisible goals**
-In the last essay, I discussed LLMs abilities to produce information and distinguished it from their knowledge of information. In this post, I want to draw a parallel between that and something a bit more complicated: the distinction between behaviors and goals (AKA values, desires, objectives
-
-[1]).
+In the last essay, I discussed LLMs abilities to produce information and distinguished it from their knowledge of information. In this post, I want to draw a parallel between that and something a bit more complicated: the distinction between behaviors and goals (AKA values, desires, objectives[^1]).
 
 I think this is one of the most fundamental questions of AI safety: how can we best distinguish or notice goals, instead of just behaviors? Although this isn't a new question, I think it's worth recapping.
 
-Goals and behaviors feel very distinguishable for humans but I haven’t been able to formalize the difference (if any!) for AI.
+Goals and behaviors feel very distinguishable for humans but I haven’t been able to formalize the difference (if any!) for AI.[^2] For humans, we at least have the fallback position of:
 
-[2]
-
- For humans, we at least have the fallback position of:
-
-Humans are rational agents and thus have utility functions
-Their goal is generically to maximize utility
-Their behaviors are whatever they do
-We can infer (an approximation of) their specific goals by some assumptions on properties of the utility function (it is a function, it is continuous) and then trying to learn the shape of the utility function (and thus their goals) from their behaviors.
+  1) Humans are rational agents and thus have utility functions
+  2) Their goal is generically to maximize utility
+  3) Their behaviors are whatever they do
+  4) We can infer (an approximation of) their specific goals by some assumptions on properties of the utility function (it is a function, it is continuous) and then trying to learn the shape of the utility function (and thus their goals) from their behaviors.
 
 I don't particularly like this--it seems to assume WAY too much of the answer by positing a utility function--but it's a common framing and worth mentioning. At a more basic intuitive level, though, we can think about goal factoring. Consider a person showering every day. That person has a behavior but without more information it’s very difficult to tell if the behavior is due to (a) valuing being clean (b) valuing the feeling of showering (c) having a showering habit and not thinking much about it (d) other. 
 
@@ -60,21 +54,24 @@ While it is not practical to actually do this, we can imagine listing all the ef
 
 Moreover, I think people have enough self-knowledge that you can just ask a (thoughtful intelligent) person “do you do x because you value it intrinsically, or in pursuit of another goal, or something else?” And get a good (although certainly not great!) answer, in the sense that it is predictive of actions if hypotheticals like the above actually happen.
 
-Translating this to AI gets ugly though. From a reductionistic standpoint, it might be fair to say that nothing in the universe actually has goals--the universe is in a state. Then a time evolution operator is applied and the universe is in a new state. From this perspective, goals are a useful abstraction for thinking about certain things because our brains are compute-limited, but them being useful for thinking about vertebrates doesn't imply anything about them necessarily being useful for any given form of AI. And indeed, I am skeptical of the idea that LLMs with transformer architectures trained almost completely on next token prediction from human documents will ever develop in such a way that goals/values/desires are a useful abstraction for them.
+Translating this to AI gets ugly though. From a reductionistic standpoint, it might be fair to say that nothing in the universe actually has goals--the universe is in a state. Then a time evolution operator is applied and the universe is in a new state. From this perspective, goals are a useful abstraction for thinking about certain things because our brains are compute-limited, but them being useful for thinking about vertebrates doesn't imply anything about them necessarily being useful for any given form of AI. And indeed, I am skeptical of the idea that LLMs with transformer architectures trained almost completely on next token prediction from human documents will ever develop in such a way that goals/values/desires are a useful abstraction for them.[^3]
 
-[3]
-
-With a purely exterior view, I don’t know a general way to set up hypotheticals for GPT-4 (let alone arbitrary AI) that seem informative to me on this axis. The possible outputs and inputs feel too limited, and I know just barely too much about the real reasons for outputs
-
-[4]
-
- to feel like the idea of a "goal" is useful. To make things more concrete, GPT-4 very rarely says racist things (because that was a high priority during the RLHF phase of training). But is it fair to say it has a goal/value of not expressing racism? Or only that its behavior is typically not racist? I genuinely don't know. Moreover, I don't have any good ideas for experiments to find out, even impossible-in-practice ones.
+With a purely exterior view, I don’t know a general way to set up hypotheticals for GPT-4 (let alone arbitrary AI) that seem informative to me on this axis. The possible outputs and inputs feel too limited, and I know just barely too much about the real reasons for outputs[^4] to feel like the idea of a "goal" is useful. To make things more concrete, GPT-4 very rarely says racist things (because that was a high priority during the RLHF phase of training). But is it fair to say it has a goal/value of not expressing racism? Or only that its behavior is typically not racist? I genuinely don't know. Moreover, I don't have any good ideas for experiments to find out, even impossible-in-practice ones.
 
 However, this is from the purely exterior view. Just as mechanistic interpretability techniques might eventually provide us with a causal pathway from a world-model to the outputs of an LLM (thus giving us some evidence that the model is telling us "what it really knows"), we might hope for a parallel situation with goals. If we could find (in a wildly optimistic success of interpretability) something anticipated by the LLM, an update to its world model that it expects its actions to result in, I would certainly count that as a goal.
 
 In the next post, I intend to discuss an example where we might be able to find a "goal-like" structure in an ML model with some structural similarities to LLMs: physics models trained to find real-world solutions to complex problems.
 
-Thanks again to Ishita Dasgupta for comments, conversations, and for pointing out this paper, which is fascinating and probably deserves its own post.
+_Thanks again to Ishita Dasgupta for comments, conversations, and for pointing out this paper, which is fascinating and probably deserves its own post._
+
+[^1]: Jacob Steinhardt recently suggested using "drives" as an agnostic term for AI behaviors which may or may not be goal directed. I like the term and think this is good practice. For the purposes of this essay, however, I am explicitly interested in trying to tease apart any realness to the distinction which is collapsed by that term.
+
+[^2]: In the RL setting there is a formalism that distinguishes between them but I really want an answer which is agnostic to how a system was created/trained/evolved.
+
+[^3]: Although this could easily change with some scaffolding.
+
+[^4]: Linear algebra and max(0,x)
+
 Short term optimism, long term pessimism (relative to other alignment thinkers)
 ------
 Near-term, it seems like a lot of alignment thinkers believe that GPT-7 or something will be…worth being scared of, as an agent. I disagree–my mental model of LLMs with self-supervised training regimes is fundamentally very unlikely to be world-destroying (except possibly as a tool, but I would count that as a problem with Putin/Xi/Kim Jong Un’s alignment, not with the AI’s). I don’t think LLMs have strong emergent desires or goals, and I think we have some evidence against the proposition that they even have coherent world-models. While I think increasing parameter count can certainly increase accuracy, Chinchilla convinced me that we are more limited by high-quality training data, and after using basically the entire internet, it’s not obvious where to go next. I think human intelligence is long-tailed, and while GPT-4 is arguably more intelligent than average people, I believe we are several architectural and training regime revolutions (on the scale of the “RNNs to transformers” revolution) away from AGI that can be consistently 95th percentile intelligence. I also think I have a higher opinion of academia and industry’s success at taking low-hanging fruit than many alignment researchers, so I am more skeptical of recursive self-improvement and extremely fast takeoff. I think before we have misaligned super-intelligent AI, we will have misaligned highly intelligent AI, which will cause problems big enough to be a serious wake-up call, but not to destroy all value.
