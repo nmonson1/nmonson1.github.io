@@ -32,7 +32,8 @@ In the last few months, I've seen some critiques of interpretability. I think ma
 
 <div style="counter-reset: footnote;"></div>
 
-**LLMs: visible behaviors and invisible goals**
+LLMs: visible behaviors and invisible goals
+------
 In the last essay, I discussed LLMs abilities to produce information and distinguished it from their knowledge of information. In this post, I want to draw a parallel between that and something a bit more complicated: the distinction between behaviors and goals (AKA values, desires, objectives[^1]).
 
 I think this is one of the most fundamental questions of AI safety: how can we best distinguish or notice goals, instead of just behaviors? Although this isn't a new question, I think it's worth recapping.
@@ -56,7 +57,7 @@ With a purely exterior view, I don’t know a general way to set up hypothetical
 
 However, this is from the purely exterior view. Just as mechanistic interpretability techniques might eventually provide us with a causal pathway from a world-model to the outputs of an LLM (thus giving us some evidence that the model is telling us "what it really knows"), we might hope for a parallel situation with goals. If we could find (in a wildly optimistic success of interpretability) something anticipated by the LLM, an update to its world model that it expects its actions to result in, I would certainly count that as a goal.
 
-In the next post, I intend to discuss an example where we might be able to find a "goal-like" structure in an ML model with some structural similarities to LLMs: physics models trained to find real-world solutions to complex problems.
+In the future, I intend to discuss an example where we might be able to find a "goal-like" structure in an ML model with some structural similarities to LLMs: physics models trained to find real-world solutions to complex problems.
 
 _Thanks again to Ishita Dasgupta for comments, conversations, and for pointing out this paper, which is fascinating and probably deserves its own post._
 
