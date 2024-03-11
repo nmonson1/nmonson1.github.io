@@ -31,6 +31,8 @@ In the last few months, I've seen some critiques of interpretability. I think ma
 [^2]: I'm aware of epistemology, "justified true beliefs", and Gettier cases; for the present context, I'm going to take the "justified" and "true" parts for granted and focus on "belief".
 [^3]: Even just the human case is not always uncomplicated. I think there's a really interesting discussion to be had on [blindsight](https://en.wikipedia.org/wiki/Blindsight) and [implicit learning](https://en.wikipedia.org/wiki/Implicit_learning) and similar phenomena, but I'll save that for another time.
 
+<div style="counter-reset: footnote;"></div>
+
 **LLMs: visible behaviors and invisible goals**
 In the last essay, I discussed LLMs abilities to produce information and distinguished it from their knowledge of information. In this post, I want to draw a parallel between that and something a bit more complicated: the distinction between behaviors and goals (AKA values, desires, objectives[^1]).
 
