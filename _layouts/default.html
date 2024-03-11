@@ -8,6 +8,10 @@ layout: compress
 <html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
   <head>
     {% include head.html %}
+    <!-- Include MathJax script for LaTeX support -->
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
     {% include head/custom.html %}
   </head>
 
