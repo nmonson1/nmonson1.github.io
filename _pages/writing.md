@@ -8,7 +8,7 @@ redirect_from:
   - /writing.html
   - /shortform.html
 ---
-This is a place for some ideas I've had which seem worth keeping track of. Some of them may be turned into longer essays at some point. A few were originally written as part of Serimats applications, Alignment 101/201 exercises, or similar things. 
+This is a place for some ideas I've had. Some of them may be turned into longer essays at some point. A few were originally written as part of Serimats applications, Alignment 101/201 exercises, or similar things.
 
 LLMs: visible production and invisible knowledge
 ------

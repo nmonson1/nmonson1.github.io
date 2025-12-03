@@ -7,9 +7,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Welcome! My name is Nathaniel and I am an AI alignment researcher. I am intensely focused on exploring the mechanisms behind the efficacy of modern ML techniques. In addition to being theoretically fascinating, I think gaining a greater understanding of these issues is potentially existentially critical. Currently, my ambition is to use interpretability tools to extract objective functions from complex models. While my background is primarily in computational topology and secondarily in algebraic geometry, I have been dedicated to AI and alignment work since Autumn of 2022.
+Welcome! My name is Nathaniel and I am a machine learning scientist. I am focused on developing methods towards AI interpretability. Currently, I am a Founding Research Scientist at [Guide Labs](guidelabs.ai). We are creating foundational LLMs that are engineered so as to be inherently interpretable.
 
-These days, I am supported by a Long Term Future Fund grant to pivot from mathematics into ML/AI.
+My background is primarily in computational topology and secondarily in algebraic geometry, but I have been dedicated to AI interpretability work since Autumn of 2022. I spent two years making this pivot and honing a new skillset with the support of a Long Term Future Fund grant and a Lightspeed grant. During this time, my goal was to use mechanistic interpretability tools to extract objective functions from complex models.
 
 Background
 ======
@@ -19,7 +19,7 @@ Before graduate school, I did economic consulting at LECG, LLC. Before that I gr
 
 Site guide
 ------
-On this site, you can also find [my CV](/files/NathanielMonson_CV.pdf), some [writing](link) on AGI and interpretability.
+On this site, you can also find [my CV](/files/NathanielMonson_CV.pdf), some [writing](https://nmonson1.github.io/writing/) on AGI and interpretability.
 
 Other stuff
 ------

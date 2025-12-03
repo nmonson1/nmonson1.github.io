@@ -80,11 +80,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Nathaniel B Monson, Ph.D"
+  name             : "Nathaniel B Monson"
   avatar           : "profile.jpeg"
-  bio              : "AI alignment researcher | Topologist by training | Mathematics Ph.D, UMD College Park"
+  bio              : "ML Scientist | Topologist by training | Mathematics Ph.D, UMD College Park"
   location         : "San Francisco"
-  employer         :
+  employer         : "Guide Labs"
   pubmed           : 
   googlescholar    : 
   email            : "nmonson1@gmail.com"
