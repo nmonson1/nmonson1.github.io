@@ -3,9 +3,6 @@ permalink: /
 title: "The basics"
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
 ---
 Welcome! My name is Nathaniel and I am an AI alignment researcher. I am intensely focused on exploring the mechanisms behind the efficacy of modern ML techniques. In addition to being theoretically fascinating, I think gaining a greater understanding of these issues is potentially existentially critical. Currently, my ambition is to use interpretability tools to extract objective functions from complex models. While my background is primarily in computational topology and secondarily in algebraic geometry, I have been dedicated to AI and alignment work since Autumn of 2022.
 
